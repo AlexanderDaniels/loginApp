@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">loginApp</string>
+    <string name="username">Enter in Username</string>
+    <string name="password">Enter in Password</string>
+    <string name="checkBox">Please check me before login</string>
+</resources>

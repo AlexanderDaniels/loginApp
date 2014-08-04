@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <ImageView
+            android:layout_width="203dp"
+            android:layout_height="158dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/icon" android:layout_gravity="center" android:layout_weight="0.24"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My name is Alexander Daniels, i am 22 years of age, i come from a little place called Elim, very quiet place, i enjoy sports and gaming very much, and in my free time i enjoy spending time with my friends and program . Since i saw and heard what android can do, it got my attention fully and it is my dream to take the skills that i have and acquire a long the years, to help make people's life's easier."
+            android:id="@+id/textView" android:layout_weight="0.74"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/aboutBackBtn" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

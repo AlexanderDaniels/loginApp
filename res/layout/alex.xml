@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="#c4589dd3"
+        >
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btnGetInfo"
+            android:onClick="GetData"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/checkBox" android:layout_toLeftOf="@+id/btnClear"
+            android:layout_marginRight="66dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Username:"
+            android:id="@+id/textView"
+            android:layout_marginTop="39dp" android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView2"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Password:"
+            android:id="@+id/textView2"
+            android:layout_marginTop="44dp" android:layout_below="@+id/editUsername"
+            android:layout_alignLeft="@+id/checkBox"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editUsername"
+            android:inputType="text"
+            android:layout_below="@+id/textView" android:layout_alignLeft="@+id/textView2"
+            android:hint="@string/username"
+            android:layout_alignRight="@+id/btnClear"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/btnClear"
+            android:onClick="ClearData"
+            android:layout_alignTop="@+id/btnGetInfo" android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkBox"
+            android:textColorHint="#ffff1a00"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/editPassword" android:layout_alignLeft="@+id/btnGetInfo"
+            android:layout_marginTop="25dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPassword"
+            android:hint="@string/password"
+            android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/checkBox"/>
+</RelativeLayout>
