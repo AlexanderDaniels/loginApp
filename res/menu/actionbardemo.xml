@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Search
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom"/>
+
+     Refresh
+    <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_refresh"
+          android:showAsAction="ifRoom" />-->
+
+    <!-- View User Profile -->
+    <item android:id="@+id/action_user"
+          android:icon="@drawable/ic_action_user"
+          android:title="@string/action_user"
+          android:showAsAction="always" />
+
+    <!-- View User Special -->
+    <item android:id="@+id/action_user_special"
+          android:icon="@drawable/ic_action_star"
+          android:title="@string/action_user_special"
+          android:showAsAction="always" />
+
+    <!-- Logout -->
+    <item android:id="@+id/action_logout"
+          android:icon="@drawable/ic_action_done"
+          android:title="@string/action_user_logout"
+          android:showAsAction="always" />
+</menu>
