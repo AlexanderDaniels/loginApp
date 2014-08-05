@@ -13,6 +13,5 @@
         <activity android:name=".Special" android:label="Special"/>
         <activity android:name=".Menu" android:label="Menu"/>
         <activity android:name=".TabsDemo" android:label="Menu"/>
-        <activity android:name=".ActionBarDemo" android:label="Menu"/>
     </application>
 </manifest>

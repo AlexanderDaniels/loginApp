@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent" android:weightSum="1">
@@ -9,21 +9,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="This is one of my something special ;)"
-            android:id="@+id/textView"/>
-    <DatePicker
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/datePicker"/>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Their is so much one could do, the android world awaits ME!!!"
-            android:id="@+id/textView2" android:layout_weight="0.38"/>
+            android:id="@+id/textView2" android:layout_weight="0.18"
+            android:layout_above="@+id/specialBackBtn" android:layout_centerHorizontal="true"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back"
-            android:id="@+id/specialBackBtn" android:layout_gravity="center"/>
-</LinearLayout>
+            android:id="@+id/specialBackBtn" android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
+            />
+    <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker"
+            android:layout_alignRight="@+id/specialBackBtn"
+            android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:layout_above="@+id/textView2"/>
+</RelativeLayout>

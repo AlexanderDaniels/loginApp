@@ -62,4 +62,4 @@
             android:id="@+id/editPassword"
             android:hint="@string/password"
             android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/checkBox"/>
-</RelativeLayout>
+    </RelativeLayout>
