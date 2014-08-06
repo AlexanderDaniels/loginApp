@@ -11,14 +11,15 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Their is so much one could do, the android world awaits ME!!!"
             android:id="@+id/textView2" android:layout_weight="0.18"
-            android:layout_above="@+id/specialBackBtn" android:layout_centerHorizontal="true"/>
+            android:layout_above="@+id/specialBackBtn" android:layout_alignParentLeft="true"
+            android:layout_marginBottom="59dp"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back"
             android:id="@+id/specialBackBtn" android:layout_gravity="center_horizontal"
-            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
-            android:layout_toRightOf="@+id/textView"/>
+            android:layout_marginBottom="47dp"
+            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,11 +30,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Audio Record"
-            android:id="@+id/specialAudioRecord" android:layout_alignParentBottom="true"
-            android:layout_alignTop="@+id/specialBackBtn"/>
+            android:id="@+id/specialAudioRecord"
+            android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
     <DigitalClock
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/digitalClock"
-            android:layout_centerHorizontal="true" android:layout_above="@+id/textView2"/>
+            android:layout_above="@+id/textView2" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="82dp"/>
 </RelativeLayout>
