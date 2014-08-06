@@ -14,4 +14,5 @@
         <activity android:name=".Menu" android:label="Menu"/>
         <activity android:name=".TabsDemo" android:label="Menu"/>
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

@@ -62,4 +62,9 @@
             android:id="@+id/editPassword"
             android:hint="@string/password"
             android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/checkBox"/>
-    </RelativeLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:id="@+id/btnQuit" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"/>
+</RelativeLayout>

@@ -18,12 +18,22 @@
             android:text="Back"
             android:id="@+id/specialBackBtn" android:layout_gravity="center_horizontal"
             android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
-            />
-    <DatePicker
+            android:layout_toRightOf="@+id/textView"/>
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/datePicker"
-            android:layout_alignRight="@+id/specialBackBtn"
-            android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
-            android:layout_above="@+id/textView2"/>
+            android:text="@string/hello_world"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio Record"
+            android:id="@+id/specialAudioRecord" android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/specialBackBtn"/>
+    <DigitalClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/digitalClock"
+            android:layout_centerHorizontal="true" android:layout_above="@+id/textView2"/>
 </RelativeLayout>
